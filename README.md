@@ -1,2 +1,21 @@
-# dsc-ph3-water-wells
-Phase 3 (Machine Learning) project for Flatiron School's Data Science Live program
+# Tanzanian Water Well Classification
+
+## Overview
+
+## Problem
+
+## Data
+
+## Methods
+
+## Results
+
+## Conclusion
+
+## Repository Structure
+
+### Further reading and citations
+
+Full analysis available in [Jupyter notebook]().
+
+Non-technical presentation slides [available in .pdf format]().
