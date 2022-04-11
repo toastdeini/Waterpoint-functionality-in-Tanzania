@@ -1,6 +1,6 @@
-# Ignore `data` folder when pushing commits
+# Ignore `data` folder when pushing commits, in case of
+# accidental pushing of large files
 data/
-images/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
