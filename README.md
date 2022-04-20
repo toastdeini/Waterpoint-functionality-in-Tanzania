@@ -18,14 +18,40 @@ Data for this project comes from an ongoing competition hosted by DrivenData, [*
 
 pandas was used for data wrangling and modification; scikit-learn's various libraries and classes were used in preprocessing the data & formulating models.
 
+Thorough exploratory analysis revealed that a number of the dataset's forty columns (features) contained information that was redundant with other columns, not informative to the modeling process, or otherwise superfluous.
+
 ## Results
+
+### Accuracy on Unseen Data
 
 ## Conclusion
 
-## Repository Structure
+### Next Steps
 
+## Repository Structure
+```
+├── Jupyter_Notebooks
+│      ├── Exploratory_Analysis_and_Cleaning.ipynb
+│      ├── Modeling_Scratchwork.ipynb
+│      └── .ipynb
+│
+├── data
+│      ├── .csv
+│      ├── .csv
+│      ├── .csv
+│      ├── .csv
+│      └── data_dict_basic.txt
+├── images
+│      ├── lake_victoria.jpg
+│      └── .jpg
+│
+├── Predicting_Waterpoint_Functionality.ipynb
+├── presentation.pdf
+├── LICENSE
+└── README.md
+```
 ### Further reading and citations
 
-Full analysis available in [Jupyter notebook]().
+Full analysis available in [Jupyter notebook](Predicting_Waterpoint_Functionality.ipynb).
 
-Non-technical presentation slides [available in .pdf format]().
+Non-technical presentation slides [available in .pdf format](presentation.pdf).
