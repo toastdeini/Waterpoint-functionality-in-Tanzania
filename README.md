@@ -89,7 +89,6 @@ By targeting waterpoints whose features and attributes are likely to correspond 
 │       ├── training_set_values.csv*
 │       ├── training_set_labels.csv*
 │       ├── test_set_values.csv
-│       ├── test_set_labels.csv
 │       └── data_dict_basic.txt
 │
 ├── images
