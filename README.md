@@ -2,7 +2,7 @@
 
 ![img](images/lake_victoria.jpg)
 
-(Lake Victoria in Tanzania - image courtesy of [thepinkbackpack.com](https://www.thepinkbackpack.com/).)
+*(Lake Victoria in Tanzania - image courtesy of [thepinkbackpack.com](https://www.thepinkbackpack.com/).)*
 
 ## Overview
 
@@ -71,7 +71,7 @@ By targeting waterpoints whose features and attributes are likely to correspond 
     - This data **can also be actively collected and updated** in the refurbishing process.
 - **Granular investigation into individual features:**
     - i.e. Which aspects of a waterpoint are most relevant and useful to the predictive process?
-    - Time and resource limitations prevented me from conducting more comprehensive column analysis; calculating feature importance with `sklearn` will almost inadvertently yield better results than my manual, intuitive process.
+    - Time and resource limitations prevented me from conducting more comprehensive column analysis; calculating feature importance with `sklearn` will almost inadvertently yield better results than a manual, intuitive process.
     - Some features that were used in this predictive model might be **unavailable** in future analysis - for instance, while I included the quality of water that a waterpoint provides (`quality_group`) as a feature in my final model, it is a more fluid and unpredictable metric than, say, latitude or longitude.
 - **Optimize construction of new waterpoints:**
     - Inquiry into what attributes of a waterpoint best predict its functionality will **also** yield invaluable information about **what to prioritize** when constructing new wells.
