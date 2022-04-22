@@ -51,18 +51,23 @@ Following the consolidation of the data, pipelines were created to minimize data
 
 ## Conclusion
 
-Examining the model's performance - accuracy, F1, and, for the `non functional` status group, precision - on unseen (testing) data, we can conclude the following:
+Examining the model's performance - more specifically, its accuracy, F1, and, for the `non functional` status group, precision scores - on unseen (testing) data, we can conclude the following:
 
 - **In general,** our model *accurately predicts* whether a given well will be functional, not functional, or functional (but in need of repair) about **79% of the time**. In other words, we make a correct prediction **four out of five times**.
 - The precision score for predictions on **non-functional** wells - **0.84** - indicates the rate of **true positives**.
 
 ### Next Steps
 
-- **Granular investigation into individual features:**
-    - Which aspects of a waterpoint are most relevant and useful to the predictive process?
 - **Improve data gathering practices:**
-    - Many columns where unknown values were inputted as zeroes
-    - Reduce error in the training process!
+    - The dataset contains many columns where unknown values were inputted as zeroes - see `construction_year`, `longitude` / `latitude`, `amount_tsh`, among others. This is **important data!**
+    - More accurate data collection will reduce errors in the training process, which will, in turn, produce better results on unseen data, and better predictions on which waterpoints need attention.
+- **Granular investigation into individual features:**
+    - i.e. Which aspects of a waterpoint are most relevant and useful to the predictive process?
+    - Time and resource limitations prevented me from conducting more comprehensive column analysis; calculating feature importance with `sklearn` will almost inadvertently yield better results than my manual, intuitive process.
+- **Optimize construction of new waterpoints:**
+    - Inquiry into what attributes of a waterpoint best predict its functionality will **also** yield invaluable information about **what to prioritize** when constructing new wells.
+    - While this project covers only the need to attend to **existing waterpoints**, I recognize that a time will inevitably come when new builds are necessary. Analyzing various aspects of a waterpoint in conjunction with time-based features like `construction_year` and `date_recorded` will provide insight on how to construct waterpoints that are both efficient and sustainable. 
+    
     
 ## Repository Structure
 ```
